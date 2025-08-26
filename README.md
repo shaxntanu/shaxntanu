@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working on Basic C Projects<br>🌱 I’m currently learning C Language<br>💬 Ask me about ...<br>📫 How to reach me: https://www.instagram.com/shaxntanu/<br>😄 Pronouns: him<br>
+🔭 I’m currently working on Basic C Projects<br>🌱 I’m currently learning C Language<br>📫 How to reach me: https://www.instagram.com/shaxntanu/<br>😄 Pronouns: him<br>
 
 
 ## 🌐 Socials:
