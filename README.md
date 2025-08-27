@@ -1,5 +1,5 @@
 # 💫 Hi 👋, I'm Shantanu
-**A passionate Learner || C Program Language Enthusiast || Kafka Admin from India**
+**A passionate Learner || C Program Language Enthusiast**
 
 Email Me 👉 ✉️ **alamimran613@live.com** For Collaboration/Project or Anything Else. 😊😊
 
