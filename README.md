@@ -1,4 +1,10 @@
+# 💫 Hi 👋, I'm Shantanu
+**A passionate Learner || C Program Language Enthusiast || Kafka Admin from India**
 
+Email Me 👉 ✉️ **alamimran613@live.com** For Collaboration/Project or Anything Else. 😊😊
+
+- 🔭 **I’m currently working on:** Basic and intermediate C Projects
+- 🌱 **I’m currently learning:** C Language
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/shaxntanu) 
 
