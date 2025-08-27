@@ -1,8 +1,6 @@
 # 💫 Hi 👋, I'm Shantanu
 **A passionate Learner || C Program Language Enthusiast**
 
-Email Me 👉 ✉️ **alamimran613@live.com** For Collaboration/Project or Anything Else. 😊😊
-
 - 🔭 **I’m currently working on:** Basic and intermediate C Projects
 - 🌱 **I’m currently learning:** C Language
 ## 🌐 Socials:
