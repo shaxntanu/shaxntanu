@@ -1,4 +1,4 @@
-# 💫 Hi 👋, I'm Shantanu!
+# 💫 Hi 👋, I'm Shantanu! 
 **A passionate Learner || C Programming Language Enthusiast**
 
 - 🔭 **I’m currently working on:** Basic and intermediate C Projects
