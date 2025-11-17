@@ -1,8 +1,8 @@
 # 💫 Hi 👋, I'm Shantanu! 
 **A passionate Learner || IoT and Embedded Systems Enthusiast**
 
-- 🔭 **I’m currently working on:** Basic and intermediate C Projects
-- 🌱 **I’m currently learning:** C Language
+- 🔭 **I’m currently working on:** Basic and intermediate C Projects, IoT and Embedded System Projects, AI Integrated Learning
+- 🌱 **I’m currently learning:** C Language, C++ Language, Arduino, IoT
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/shaxntanu) 
 
