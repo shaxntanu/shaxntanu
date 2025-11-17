@@ -1,5 +1,5 @@
 # 💫 Hi 👋, I'm Shantanu! 
-**A passionate Learner || C Programming Language Enthusiast**
+**A passionate Learner || IoT and Embedded Systems Enthusiast**
 
 - 🔭 **I’m currently working on:** Basic and intermediate C Projects
 - 🌱 **I’m currently learning:** C Language
