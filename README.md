@@ -26,7 +26,6 @@
 
 ---
 [![](https://visitcount.itsvg.in/api?id=shaxntanu&icon=4&color=4)](https://visitcount.itsvg.in)
-
 <div align="center">
   <img src="https://profile-readme-generator.com/assets/snake.svg" alt="Snake animation" />
 </div>
