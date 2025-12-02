@@ -1,4 +1,4 @@
-# 💫 Hi 👋, I'm Shantanu! 
+# 👋 Hi, I'm Shantanu! 
 **A passionate Learner || IoT and Embedded Systems Enthusiast**
 
 # 💫 About Me:
