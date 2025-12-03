@@ -1,7 +1,7 @@
-#👋 Hi, I'm Shantanu! 
+##👋 Hi, I'm Shantanu! 
 **A passionate Learner || IoT and Embedded Systems Enthusiast**
 
-#💫 About Me:
+##💫 About Me:
 🔭 Basic and intermediate C Projects, IoT and Embedded System Projects, AI Integrated Learning<br>👯 Open‑source IoT / embedded projects, hardware + React dashboards, and any ideas that mix sensors with clean UX.<br>🤝 Advanced PCB design, low‑power optimisation on ESP32, Arduino Projects.<br>🌱 Deep dive ESP32 (Wi‑Fi, BLE, MQTT), Next.js for dashboards.<br>💬 Building end‑to‑end IoT prototypes, debugging weird sensor issues at 2 AM, or turning rough project ideas into working demos.<br>⚡ I enjoy turning random data (air quality, typing stats, sensor logs) into visual stories on the web.
 
 
