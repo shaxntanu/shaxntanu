@@ -2,22 +2,28 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * *" # Run at midnight
   workflow_dispatch:
+
+permissions: 
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-
+      
       - uses: Platane/snk@v3
         with:
+          # github user name to read the contribution graph from (**required**)
           github_user_name: ${{ github.repository_owner }}
+          
+          # list of files to generate.
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
+            
       - uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
