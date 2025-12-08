@@ -2,7 +2,7 @@
 **A passionate Learner || IoT and Embedded Systems Enthusiast**
 
 # 💫 About Me:
-🔭 Basic and intermediate C Projects, IoT and Embedded System Projects, AI Integrated Learning<br>👯 Open‑source IoT / embedded projects, hardware + React dashboards, and any ideas that mix sensors with clean UX.<br>🤝 Advanced PCB design, low‑power optimisation on ESP32, Arduino Projects.<br>🌱 Deep dive ESP32 (Wi‑Fi, BLE, MQTT), Next.js for dashboards.<br>💬 Building end‑to‑end IoT prototypes, debugging weird sensor issues at 2 AM, or turning rough project ideas into working demos.<br>⚡ I enjoy turning random data (air quality, typing stats, sensor logs) into visual stories on the web.
+🔭 I' currently working on: Basic and intermediate C Projects, IoT and Embedded System Projects, AI Integrated Learning<br>👯I’m looking to collaborate on: Open‑source IoT / embedded projects, hardware + React dashboards, and any ideas that mix sensors with clean UX.<br>🤝I’m looking for help with: Advanced PCB design, low‑power optimisation on ESP32, Arduino Projects.<br>🌱I’m currently learning: Deep dive ESP32 (Wi‑Fi, BLE, MQTT), Next.js for dashboards.<br>💬Ask me about: Building end‑to‑end IoT prototypes, debugging weird sensor issues at 2 AM, or turning rough project ideas into working demos.<br>⚡Fun fact: I enjoy turning random data (air quality, typing stats, sensor logs) into visual stories on the web.
 
 
 ## 🌐 Socials:
