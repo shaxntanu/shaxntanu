@@ -14,7 +14,7 @@
 
 <div align="center">
 
-![GitHub 3D Contribution Graph](./profile-3d-contrib/profile-tokyonight.svg)
+![GitHub 3D Contribution Graph](./profile-3d-contrib/profile-season-animate.svg)
 
 *3D visualization of my GitHub contributions - updated daily via GitHub Actions*
 
