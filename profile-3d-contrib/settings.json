@@ -1,8 +1,12 @@
 [
   {
-    "fileName": "profile-minecraft-dark.svg",
+    "fileName": "profile-tokyonight.svg",
     "type": "gitblock",
-    "backgroundColor": "#0d1117",
-    "foregroundColor": "#ffffff"
+    "backgroundColor": "#1a1b26",
+    "foregroundColor": "#c0caf5",
+    "weakColor": "#24283b",
+    "mediumColor": "#7aa2f7",
+    "strongColor": "#bb9af7",
+    "radarColor": "#7dcfff"
   }
 ]
