@@ -9,7 +9,7 @@
 🔭**I' currently working on:** C, Embedded Systems, IoT, and AI Learning<br>👯**I'm looking to collaborate on:** Open-source IoT/Embedded, Hardware + React Dashboards, Sensor UX.<br>🤝**I'm looking for help with:** Advanced PCB, Low-Power ESP32, and Arduino Development.<br>🌱**I'm currently learning:** Deep dive ESP32 (Wi‑Fi, BLE, MQTT), Next.js for dashboards.<br>💬**Ask me about:** Building Demos, Debugging Sensors, E2E IoT, Problem Solving.<br>⚡**Fun fact:** I enjoy turning random data (air quality, typing stats, sensor logs) into visual stories on the web.
 
 
-## � Socnials:
+## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/shaxntanu) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/shantanu-maratha28) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:i.am.shantanu07@gmail.com)
 
 ---
