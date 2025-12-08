@@ -1,12 +1,9 @@
 [
   {
     "fileName": "profile-tokyonight.svg",
-    "type": "gitblock",
+    "type": "season-animate",
     "backgroundColor": "#1a1b26",
     "foregroundColor": "#c0caf5",
-    "weakColor": "#414868", 
-    "mediumColor": "#7aa2f7",
-    "strongColor": "#bb9af7",
-    "radarColor": "#7dcfff"
+    "radarColor": "#7aa2f7"
   }
 ]
