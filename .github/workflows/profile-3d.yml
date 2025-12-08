@@ -15,19 +15,24 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       
+      # 1. Create the settings file first
+      - name: Create settings.json
+        run: |
+          echo '[
+            {
+              "fileName": "profile-minecraft-dark.svg",
+              "type": "gitblock",
+              "backgroundColor": "#0d1117",
+              "foregroundColor": "#ffffff"
+            }
+          ]' > profile-3d-contrib/settings.json
+          
+      # 2. Run the action pointing to that file
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
-          SETTING_JSON: |
-            [
-              {
-                "fileName": "profile-minecraft-dark.svg",
-                "type": "gitblock",
-                "backgroundColor": "#0d1117",
-                "foregroundColor": "#ffffff"
-              }
-            ]
+          SETTING_JSON: profile-3d-contrib/settings.json
             
       - name: Commit & Push
         run: |
