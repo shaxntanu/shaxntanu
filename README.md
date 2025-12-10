@@ -30,7 +30,7 @@
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=shaxntanu&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=false&v=2)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=shaxntanu&theme=tokyonight&hide_border=false&v=2)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=shaxntanu&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=false&layout=compact&v=3)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=shaxntanu&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=false&layout=compact&v=2)
 
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=vetical&theme=tokyonight)
