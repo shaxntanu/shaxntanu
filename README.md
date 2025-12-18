@@ -2,7 +2,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1200&color=7AA2F7&center=true&vCenter=true&width=520&lines=Hi%2C+I'm+Shantanu!;IoT+%26+Embedded+Systems+Developer;Fusing+Digital+and+Digital+World" alt="Typing SVG" />
 </div>
 <br/>
-
+ 
 # 💫 About Me:
 🔭**I' currently working on:** C, Embedded Systems, IoT, and AI Learning<br>👯**I'm looking to collaborate on:** Open-source IoT/Embedded, Hardware + React Dashboards, Sensor UX.<br>🤝**I'm looking for help with:** Advanced PCB, Low-Power ESP32, and Arduino Development.<br>🌱**I'm currently learning:** Deep dive ESP32 (Wi‑Fi, BLE, MQTT), Next.js for dashboards.<br>💬**Ask me about:** Building Demos, Debugging Sensors, E2E IoT, Problem Solving.<br>⚡**Fun fact:** I enjoy turning random data (air quality, typing stats, sensor logs) into visual stories on the web.
 
