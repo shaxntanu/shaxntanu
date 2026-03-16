@@ -38,7 +38,7 @@
 <div align="center">
 
 ### ✍️ Random Dev Quote
-*Updated: March 16, 2026*
+*March 16, 2026*
 
 ![](https://quotes-github-readme.vercel.app/api?type=vetical&theme=tokyonight)
 

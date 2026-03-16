@@ -22,8 +22,8 @@ jobs:
           # Get current date in IST format: Month Day, Year
           CURRENT_DATE=$(date +"%B %d, %Y")
           
-          # Update the date line in README.md
-          sed -i "s/\*Updated: .*\*/\*Updated: $CURRENT_DATE\*/g" README.md
+          # Update the date line in README.md (without "Updated:")
+          sed -i "s/\*[A-Za-z]* [0-9]*, [0-9]*\*/\*$CURRENT_DATE\*/g" README.md
           
       - name: Commit and push if changed
         run: |
