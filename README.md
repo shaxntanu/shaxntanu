@@ -38,7 +38,7 @@
 <div align="center">
 
 ### ✍️ Random Dev Quote
-![Date](https://img.shields.io/date/$(date%20+%s)?label=Updated&style=flat-square&color=7AA2F7)
+*Updated: March 16, 2026*
 
 ![](https://quotes-github-readme.vercel.app/api?type=vetical&theme=tokyonight)
 
