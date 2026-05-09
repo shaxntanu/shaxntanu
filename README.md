@@ -25,23 +25,23 @@
 ---
 
 # 💻 Tech Stack:
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=plastic&logo=c%2B%2B&logoColor=white) &nbsp;
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=plastic&logo=c&logoColor=white) &nbsp;
-![Python](https://img.shields.io/badge/python-3670A0?style=plastic&logo=python&logoColor=ffdd54) &nbsp;
-![Jupyter](https://img.shields.io/badge/Jupyter-%23F37626.svg?style=plastic&logo=jupyter&logoColor=white) &nbsp;
-![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=plastic&logo=firebase) &nbsp;
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=plastic&logo=git&logoColor=white) &nbsp;
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=plastic&logo=github&logoColor=white) &nbsp;
-![Arduino](https://img.shields.io/badge/Arduino-%2300979D.svg?style=plastic&logo=arduino&logoColor=white) &nbsp;
-![Espressif](https://img.shields.io/badge/Espressif-%23E7352C.svg?style=plastic&logo=espressif&logoColor=white) &nbsp;
-![KiCad](https://img.shields.io/badge/KiCad-%23314CB0.svg?style=plastic&logo=kicad&logoColor=white) &nbsp;
-![SolidWorks](https://img.shields.io/badge/SolidWorks-%23FF0000.svg?style=plastic&logo=dassaultsystemes&logoColor=white) &nbsp;
-![AutoCAD](https://img.shields.io/badge/AutoCAD-%23E51050.svg?style=plastic&logo=autodesk&logoColor=white) &nbsp;
-![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=plastic&logo=notion&logoColor=white) &nbsp;
-![Obsidian](https://img.shields.io/badge/Obsidian-%23483699.svg?style=plastic&logo=obsidian&logoColor=white) &nbsp;
-![Tinkercad](https://img.shields.io/badge/Tinkercad-%231477D1.svg?style=plastic&logo=autodesk&logoColor=white) &nbsp;
-![Wokwi](https://img.shields.io/badge/Wokwi-%234B4BED.svg?style=plastic&logo=wokwi&logoColor=white) &nbsp;
-![Monkeytype](https://img.shields.io/badge/Monkeytype-%23E2B714.svg?style=plastic&logo=monkeytype&logoColor=white)
+<img src="https://img.shields.io/badge/c++-%2300599C.svg?style=plastic&logo=c%2B%2B&logoColor=white" alt="C++"> &nbsp;
+<img src="https://img.shields.io/badge/c-%2300599C.svg?style=plastic&logo=c&logoColor=white" alt="C"> &nbsp;
+<img src="https://img.shields.io/badge/python-3670A0?style=plastic&logo=python&logoColor=ffdd54" alt="Python"> &nbsp;
+<img src="https://img.shields.io/badge/Jupyter-%23F37626.svg?style=plastic&logo=jupyter&logoColor=white" alt="Jupyter"> &nbsp;
+<img src="https://img.shields.io/badge/firebase-%23039BE5.svg?style=plastic&logo=firebase" alt="Firebase"> &nbsp;
+<img src="https://img.shields.io/badge/git-%23F05033.svg?style=plastic&logo=git&logoColor=white" alt="Git"> &nbsp;
+<img src="https://img.shields.io/badge/github-%23121011.svg?style=plastic&logo=github&logoColor=white" alt="GitHub"> &nbsp;
+<img src="https://img.shields.io/badge/Arduino-%2300979D.svg?style=plastic&logo=arduino&logoColor=white" alt="Arduino"> &nbsp;
+<img src="https://img.shields.io/badge/Espressif-%23E7352C.svg?style=plastic&logo=espressif&logoColor=white" alt="Espressif"> &nbsp;
+<img src="https://img.shields.io/badge/KiCad-%23314CB0.svg?style=plastic&logo=kicad&logoColor=white" alt="KiCad"> &nbsp;
+<img src="https://img.shields.io/badge/SolidWorks-%23FF0000.svg?style=plastic&logo=dassaultsystemes&logoColor=white" alt="SolidWorks"> &nbsp;
+<img src="https://img.shields.io/badge/AutoCAD-%23E51050.svg?style=plastic&logo=autodesk&logoColor=white" alt="AutoCAD"> &nbsp;
+<img src="https://img.shields.io/badge/Notion-%23000000.svg?style=plastic&logo=notion&logoColor=white" alt="Notion"> &nbsp;
+<img src="https://img.shields.io/badge/Obsidian-%23483699.svg?style=plastic&logo=obsidian&logoColor=white" alt="Obsidian"> &nbsp;
+<img src="https://img.shields.io/badge/Tinkercad-%231477D1.svg?style=plastic&logo=autodesk&logoColor=white" alt="Tinkercad"> &nbsp;
+<img src="https://img.shields.io/badge/Wokwi-%234B4BED.svg?style=plastic&logo=wokwi&logoColor=white" alt="Wokwi"> &nbsp;
+<img src="https://img.shields.io/badge/Monkeytype-%23E2B714.svg?style=plastic&logo=monkeytype&logoColor=white" alt="Monkeytype">
 
 ## 🐍 Contribution Snake
 
