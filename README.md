@@ -4,7 +4,7 @@
 <br/>
  
 # 💫 About Me:
-🔭**I'm currently working on:** C, Embedded Systems, IoT Devices, and Applied AI.<br>👯**I'm looking to collaborate on:** Open-source IoT / embedded projects, hardware prototypes, and experimental systems.<br>🌱**I'm currently learning:** ESP32 deep dive (Wi-Fi, BLE, MQTT), embedded systems design, and Next.js dashboards.<br>💬**Ask me about:** Building hardware demos, debugging sensors, IoT pipelines, and turning ideas into working prototypes.<br>⚡**Fun fact:** I enjoy turning random real-world data (air quality, typing stats, sensor logs) into visual and interactive web stories.
+🔭 **I'm currently working on:** Building IoT systems, embedded projects, and experimenting with applied AI — usually involving ESP32s, sensors, and ideas that start as "what if this actually worked?"<br>👯 **I'm looking to collaborate on:** Open-source embedded systems, hardware prototypes, maker projects, and weird-but-interesting ideas that connect software with the physical world.<br>🌱 **I'm currently learning:** Diving deeper into ESP32 internals (Wi-Fi, BLE, MQTT), embedded system design, hardware workflows, and building dashboards that make raw device data actually useful.<br>💬 **Ask me about:** Prototyping hardware ideas, debugging sensors that randomly decide to betray you, IoT pipelines, and turning concepts into working demos.<br>⚡ **Fun fact:** I like taking random real-world data — typing stats, sensor readings, environmental data, or logs — and turning it into something visual, interactive, or just fun to mess with.
 
 
 ## 🌐 Socials:
