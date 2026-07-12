@@ -7,23 +7,28 @@ ECE undergraduate working on embedded systems, IoT, and hardware-software co-des
 ## Current Focus
 
 • Embedded firmware development (ESP32, ARM)
+
 • PCB design and circuit prototyping
+
 • RTOS and real-time system design
+
 • LoRa and wireless protocols
+
 • Edge AI and on-device inference
+
 • Building complete IoT products from concept to deployment
 
 ## What I Work With
 
-**Languages** — C, C++, Python, MicroPython
+| | |
+|---|---|
+| **Languages** | C, C++, Python, MicroPython |
+| **Platforms** | ESP32, Arduino |
+| **Design & Simulation** | KiCad, SolidWorks, AutoCAD, Wokwi, Tinkercad |
+| **Tools & Frameworks** | Git, Firebase, Jupyter |
+| **Protocols** | I2C, UART, MQTT |
 
-**Platforms** — ESP32, Arduino, ARM Cortex-M
-
-**Design & Simulation** — KiCad, SolidWorks, AutoCAD, Wokwi, Tinkercad
-
-**Tools & Frameworks** — Git, Firebase, Jupyter, MQTT
-
-**Protocols** — Wi-Fi, BLE, LoRa, MQTT, CoAP
+<div align="center">
 
 <img src="https://img.shields.io/badge/c++-%2300599C.svg?style=plastic&logo=c%2B%2B&logoColor=white" alt="C++"> &nbsp;
 <img src="https://img.shields.io/badge/c-%2300599C.svg?style=plastic&logo=c&logoColor=white" alt="C"> &nbsp;
@@ -42,9 +47,19 @@ ECE undergraduate working on embedded systems, IoT, and hardware-software co-des
 <img src="https://img.shields.io/badge/Tinkercad-%231477D1.svg?style=plastic&logo=autodesk&logoColor=white" alt="Tinkercad"> &nbsp;
 <img src="https://img.shields.io/badge/Wokwi-%234B4BED.svg?style=plastic&logo=wokwi&logoColor=white" alt="Wokwi">
 
+</div>
+
 ## Connect
 
-[LinkedIn](https://linkedin.com/in/shantanu-maratha28) · [Email](mailto:i.am.shantanu07@gmail.com) · [Hackaday](https://hackaday.io/shaxntanu) · [Instructables](https://www.instructables.com/member/shaxntanu/) · [Medium](https://shaxntanu.medium.com)
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/shantanu-maratha28) &nbsp;
+[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:i.am.shantanu07@gmail.com) &nbsp;
+[![Hackaday](https://img.shields.io/badge/Hackaday-%231A1A1A.svg?logo=hackaday&logoColor=white)](https://hackaday.io/shaxntanu) &nbsp;
+[![Instructables](https://img.shields.io/badge/Instructables-%23FABF15.svg?logo=instructables&logoColor=white)](https://www.instructables.com/member/shaxntanu/) &nbsp;
+[![Medium](https://img.shields.io/badge/Medium-%23000000.svg?logo=medium&logoColor=white)](https://shaxntanu.medium.com)
+
+</div>
 
 ## Contributions
 
