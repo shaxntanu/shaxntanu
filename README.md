@@ -2,7 +2,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1200&color=7AA2F7&center=true&vCenter=true&width=520&lines=Hi%2C+I'm+Shantanu!;Embedded+Systems+%26+IoT" alt="Typing SVG" />
 </div>
 
-ECE Sophomore building embedded systems and IoT projects. I work with microcontrollers, wireless communication, PCB design, and firmware to create systems that actually work.
+ECE sophomore building embedded systems and IoT projects. I work with microcontrollers, wireless communication, PCB design, and firmware to create systems that actually work.
 
 ## Current Focus
 
