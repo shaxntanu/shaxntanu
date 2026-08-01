@@ -53,7 +53,7 @@ ECE sophomore building embedded systems and IoT projects. I work with microcontr
 <div align="center">
 
 <img src="https://img.shields.io/badge/Wokwi-%234B4BED.svg?style=plastic&logo=wokwi&logoColor=white" alt="Wokwi"> &nbsp;
-<img src="https://img.shields.io/badge/Tinkercad-%231477D1.svg?style=plastic&logo=autodesk&logoColor=white" alt="Tinkercad">
+<a href="https://www.tinkercad.com/users/hhBNMRS8o1o"><img src="https://img.shields.io/badge/Tinkercad-%231477D1.svg?style=plastic&logo=autodesk&logoColor=white" alt="Tinkercad"></a>
 
 </div>
 
