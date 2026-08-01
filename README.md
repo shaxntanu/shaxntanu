@@ -84,6 +84,7 @@ ECE sophomore building embedded systems and IoT projects. I work with microcontr
 [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:i.am.shantanu07@gmail.com) &nbsp;
 [![Hackaday](https://img.shields.io/badge/Hackaday-%231A1A1A.svg?logo=hackaday&logoColor=white)](https://hackaday.io/shaxntanu) &nbsp;
 [![Instructables](https://img.shields.io/badge/Instructables-%23FABF15.svg?logo=instructables&logoColor=white)](https://www.instructables.com/member/shaxntanu/) &nbsp;
+[![Tinkercad](https://img.shields.io/badge/Tinkercad-%231477D1.svg?logo=autodesk&logoColor=white)](https://www.tinkercad.com/users/hhBNMRS8o1o) &nbsp;
 [![Medium](https://img.shields.io/badge/Medium-%23000000.svg?logo=medium&logoColor=white)](https://shaxntanu.medium.com)
 
 </div>
