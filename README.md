@@ -26,6 +26,8 @@ ECE, CS-Minor Sophomore @TIET building embedded systems and IoT projects. I work
 <img src="https://img.shields.io/badge/c-%2300599C.svg?style=plastic&logo=c&logoColor=white" alt="C"> &nbsp;
 <img src="https://img.shields.io/badge/python-3670A0?style=plastic&logo=python&logoColor=ffdd54" alt="Python"> &nbsp;
 <img src="https://img.shields.io/badge/Verilog-%239932CC.svg?style=plastic&logo=verilog&logoColor=white" alt="Verilog">
+<img src="https://shields.io" alt="MATLAB">
+
 
 </div>
 
