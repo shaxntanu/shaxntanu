@@ -2,7 +2,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1200&color=7AA2F7&center=true&vCenter=true&width=520&lines=Hi%2C+I'm+Shantanu!;Embedded+Systems+%26+IoT" alt="Typing SVG" />
 </div>
 
-ECE, CS-Minor Sophomore @TIET building embedded systems and IoT projects. I work with microcontrollers, wireless communication, PCB design, and firmware to create systems that actually work.
+ECE, CS-Minor Sophomore @ TIET building embedded systems and IoT projects. I work with microcontrollers, wireless communication, PCB design, and firmware to create systems that actually work.
 
 ## Current Focus
 
@@ -23,9 +23,9 @@ ECE, CS-Minor Sophomore @TIET building embedded systems and IoT projects. I work
 <div align="center">
 
 <img src="https://img.shields.io/badge/MATLAB-%23E16737.svg?style=plastic&logo=mathworks&logoColor=white" alt="MATLAB"> &nbsp;
-<img src="https://img.shields.io/badge/c++-%2300599C.svg?style=plastic&logo=c%2B%2B&logoColor=white" alt="C++"> &nbsp;
-<img src="https://img.shields.io/badge/c-%2300599C.svg?style=plastic&logo=c&logoColor=white" alt="C"> &nbsp;
-<img src="https://img.shields.io/badge/python-3670A0?style=plastic&logo=python&logoColor=ffdd54" alt="Python"> &nbsp;
+<img src="https://img.shields.io/badge/C%2B%2B-%2300599C.svg?style=plastic&logo=c%2B%2B&logoColor=white" alt="C++"> &nbsp;
+<img src="https://img.shields.io/badge/C-%2300599C.svg?style=plastic&logo=c&logoColor=white" alt="C"> &nbsp;
+<img src="https://img.shields.io/badge/Python-3670A0?style=plastic&logo=python&logoColor=ffdd54" alt="Python"> &nbsp;
 <img src="https://img.shields.io/badge/Verilog-%239932CC.svg?style=plastic&logo=verilog&logoColor=white" alt="Verilog">
 
 </div>
@@ -54,7 +54,9 @@ ECE, CS-Minor Sophomore @TIET building embedded systems and IoT projects. I work
 <div align="center">
 
 <img src="https://img.shields.io/badge/Wokwi-%234B4BED.svg?style=plastic&logo=wokwi&logoColor=white" alt="Wokwi"> &nbsp;
-<a href="https://www.tinkercad.com/users/hhBNMRS8o1o"><img src="https://img.shields.io/badge/Tinkercad-%231477D1.svg?style=plastic&logo=autodesk&logoColor=white" alt="Tinkercad"></a>
+<a href="https://www.tinkercad.com/users/hhBNMRS8o1o">
+  <img src="https://img.shields.io/badge/Tinkercad-%231477D1.svg?style=plastic&logo=autodesk&logoColor=white" alt="Tinkercad">
+</a>
 
 </div>
 
@@ -62,9 +64,22 @@ ECE, CS-Minor Sophomore @TIET building embedded systems and IoT projects. I work
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/git-%23F05033.svg?style=plastic&logo=git&logoColor=white" alt="Git"> &nbsp;
-<img src="https://img.shields.io/badge/github-%23121011.svg?style=plastic&logo=github&logoColor=white" alt="GitHub"> &nbsp;
+<img src="https://img.shields.io/badge/Git-%23F05033.svg?style=plastic&logo=git&logoColor=white" alt="Git"> &nbsp;
+<img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=plastic&logo=github&logoColor=white" alt="GitHub"> &nbsp;
 <img src="https://img.shields.io/badge/Jupyter-%23F37626.svg?style=plastic&logo=jupyter&logoColor=white" alt="Jupyter">
+
+</div>
+
+## AI Tools
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Claude-%23D97757.svg?style=plastic&logo=anthropic&logoColor=white" alt="Claude"> &nbsp;
+<img src="https://img.shields.io/badge/ChatGPT-%23412991.svg?style=plastic&logo=openai&logoColor=white" alt="ChatGPT"> &nbsp;
+<img src="https://img.shields.io/badge/Gemini-%234285F4.svg?style=plastic&logo=google-gemini&logoColor=white" alt="Gemini"> &nbsp;
+<img src="https://img.shields.io/badge/NotebookLM-%235F6368.svg?style=plastic&logo=google&logoColor=white" alt="Google NotebookLM"> &nbsp;
+<img src="https://img.shields.io/badge/Copilot-%230078D4.svg?style=plastic&logo=github&logoColor=white" alt="GitHub Copilot"> &nbsp;
+<img src="https://img.shields.io/badge/Meta_AI-%230467DF.svg?style=plastic&logo=meta&logoColor=white" alt="Meta AI">
 
 </div>
 
@@ -81,11 +96,25 @@ ECE, CS-Minor Sophomore @TIET building embedded systems and IoT projects. I work
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/shantanu-maratha28) &nbsp;
-[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:i.am.shantanu07@gmail.com) &nbsp;
-[![Hackaday](https://img.shields.io/badge/Hackaday-%231A1A1A.svg?logo=hackaday&logoColor=white)](https://hackaday.io/shaxntanu) &nbsp;
-[![Instructables](https://img.shields.io/badge/Instructables-%23FABF15.svg?logo=instructables&logoColor=white)](https://www.instructables.com/member/shaxntanu/) &nbsp;
-[![Medium](https://img.shields.io/badge/Medium-%23000000.svg?logo=medium&logoColor=white)](https://shaxntanu.medium.com)
+<a href="https://linkedin.com/in/shantanu-maratha28">
+  <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" alt="LinkedIn">
+</a> &nbsp;
+
+<a href="mailto:i.am.shantanu07@gmail.com">
+  <img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white" alt="Email">
+</a> &nbsp;
+
+<a href="https://hackaday.io/shaxntanu">
+  <img src="https://img.shields.io/badge/Hackaday-%231A1A1A.svg?logo=hackaday&logoColor=white" alt="Hackaday">
+</a> &nbsp;
+
+<a href="https://www.instructables.com/member/shaxntanu/">
+  <img src="https://img.shields.io/badge/Instructables-%23FABF15.svg?logo=instructables&logoColor=white" alt="Instructables">
+</a> &nbsp;
+
+<a href="https://shaxntanu.medium.com">
+  <img src="https://img.shields.io/badge/Medium-%23000000.svg?logo=medium&logoColor=white" alt="Medium">
+</a>
 
 </div>
 
