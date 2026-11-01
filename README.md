@@ -122,6 +122,15 @@ ECE, CS-Minor Sophomore @ TIET building embedded systems and IoT projects. I wor
 
 <div align="center">
 
-![GitHub 3D Contribution Graph](./profile-3d-contrib/profile-season-animate.svg)
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/shaxntanu/shaxntanu/main/profile-3d-contrib/profile-night-view.svg"
+  />
+  <img
+    src="./profile-3d-contrib/profile-season-animate.svg"
+    alt="GitHub 3D Contribution Graph"
+  />
+</picture>
 
 </div>
