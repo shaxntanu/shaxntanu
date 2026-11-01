@@ -1,0 +1,9 @@
+[package]
+name = "readme-asset-check"
+version = "0.1.0"
+edition = "2021"
+description = "Check local image references in a GitHub profile README"
+
+[[bin]]
+name = "readme-asset-check"
+path = "src/main.rs"
