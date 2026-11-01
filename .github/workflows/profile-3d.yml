@@ -1,6 +1,11 @@
 name: GitHub-Profile-3D-Contrib
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/profile-3d.yml"
+      - ".github/scripts/color_3d_contrib_by_language.py"
   schedule:
     - cron: "0 18 * * *"
   workflow_dispatch:
@@ -19,6 +24,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
           TZ: Asia/Kolkata
+      - name: Color daily bars by commit language
+        run: python .github/scripts/color_3d_contrib_by_language.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
       - name: Commit & Push
         run: |
           export TZ='Asia/Kolkata'

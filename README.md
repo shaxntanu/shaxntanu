@@ -129,8 +129,10 @@ ECE, CS-Minor Sophomore @ TIET building embedded systems and IoT projects. I wor
   />
   <img
     src="./profile-3d-contrib/profile-season-animate.svg"
-    alt="GitHub 3D Contribution Graph"
+    alt="GitHub 3D contribution graph; dark mode colors bars by programming language"
   />
 </picture>
+
+<p><sub>In dark mode, each day's bar uses the language of the repo receiving the most commits that day. Days without commits stay neutral; bar height shows total contributions.</sub></p>
 
 </div>
