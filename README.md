@@ -1,122 +1,32 @@
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1200&color=7AA2F7&center=true&vCenter=true&width=520&lines=Hi%2C+I'm+Shantanu!;Embedded+Systems+%26+IoT" alt="Typing SVG" />
-</div>
+# Shantanu
 
-ECE, CS-Minor Sophomore @ TIET building embedded systems and IoT projects. I work with microcontrollers, wireless communication, PCB design, and firmware to create systems that actually work.
+**ECE + CS-minor student at TIET · Embedded Systems & IoT**  
+Founder at [Arceus Labs](https://github.com/Arceus-Labs) and VIGIL-IoT.
 
-## Current Focus
+I build embedded and IoT systems—from ESP32 firmware and sensor integration to PCB design, wireless networking, and dashboards.
 
-• ESP32 firmware development
+[Portfolio](https://shantanu-vsc-portfolio.vercel.app) · [LinkedIn](https://linkedin.com/in/shantanu-maratha28) · [Email](mailto:i.am.shantanu07@gmail.com) · [ORCID](https://orcid.org/0009-0008-4403-0670)
 
-• Hardware prototyping and sensor integration
+## Featured Projects
 
-• PCB design with KiCad
+### [Zephyr Station](https://github.com/shaxntanu/Zephyr-Station)
 
-• Wireless communication (Wi-Fi, BLE)
+An ESP32 environmental monitoring station with 7 sensors/modules, live OLED readings, SD-card data logging, RTC timestamps, threshold alerts, and a web dashboard.
 
-• MQTT and embedded networking
+### [Energy Consumption Pattern Analysis](https://github.com/shaxntanu/Energy-Consumption-Pattern-Analysis-using-PCA-and-K-Means)
 
-• Building complete projects from electronics to code
+A PCA and K-Means pipeline for exploring daily electricity-use patterns, with an [interactive web explorer](https://energy-consumption-pattern.vercel.app) and [Streamlit simulator](https://energy-consumption-pattern-vqrh.streamlit.app).
 
-## Languages
+### [Jolt Locator](https://github.com/Arceus-Labs/Jolt-Locator)
 
-<div align="center">
+An Arceus Labs team project: an ESP32 GPS compass that points toward the nearest energy-drink store, with true-north heading, an OLED display, and GPS-status indicators.
 
-<img src="https://img.shields.io/badge/MATLAB-%23E16737.svg?style=plastic&logo=mathworks&logoColor=white" alt="MATLAB"> &nbsp;
-<img src="https://img.shields.io/badge/C%2B%2B-%2300599C.svg?style=plastic&logo=c%2B%2B&logoColor=white" alt="C++"> &nbsp;
-<img src="https://img.shields.io/badge/C-%2300599C.svg?style=plastic&logo=c&logoColor=white" alt="C"> &nbsp;
-<img src="https://img.shields.io/badge/Python-3670A0?style=plastic&logo=python&logoColor=ffdd54" alt="Python"> &nbsp;
-<img src="https://img.shields.io/badge/Verilog-%239932CC.svg?style=plastic&logo=verilog&logoColor=white" alt="Verilog">
+## Toolkit
 
-</div>
-
-## Embedded
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/Espressif-%23E7352C.svg?style=plastic&logo=espressif&logoColor=white" alt="Espressif"> &nbsp;
-<img src="https://img.shields.io/badge/Arduino-%2300979D.svg?style=plastic&logo=arduino&logoColor=white" alt="Arduino">
-
-</div>
-
-## Hardware Design
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/KiCad-%23314CB0.svg?style=plastic&logo=kicad&logoColor=white" alt="KiCad"> &nbsp;
-<img src="https://img.shields.io/badge/SolidWorks-%23FF0000.svg?style=plastic&logo=dassaultsystemes&logoColor=white" alt="SolidWorks"> &nbsp;
-<img src="https://img.shields.io/badge/AutoCAD-%23E51050.svg?style=plastic&logo=autodesk&logoColor=white" alt="AutoCAD">
-
-</div>
-
-## Simulation & Prototyping
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/Wokwi-%234B4BED.svg?style=plastic&logo=wokwi&logoColor=white" alt="Wokwi"> &nbsp;
-<a href="https://www.tinkercad.com/users/hhBNMRS8o1o">
-  <img src="https://img.shields.io/badge/Tinkercad-%231477D1.svg?style=plastic&logo=autodesk&logoColor=white" alt="Tinkercad">
-</a>
-
-</div>
-
-## Development Tools
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/Git-%23F05033.svg?style=plastic&logo=git&logoColor=white" alt="Git"> &nbsp;
-<img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=plastic&logo=github&logoColor=white" alt="GitHub"> &nbsp;
-<img src="https://img.shields.io/badge/Jupyter-%23F37626.svg?style=plastic&logo=jupyter&logoColor=white" alt="Jupyter">
-
-</div>
-
-## AI Tools
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/Claude-%23D97757.svg?style=plastic&logo=anthropic&logoColor=white" alt="Claude"> &nbsp;
-<img src="https://img.shields.io/badge/ChatGPT-%23412991.svg?style=plastic&logo=openai&logoColor=white" alt="ChatGPT"> &nbsp;
-<img src="https://img.shields.io/badge/Gemini-%234285F4.svg?style=plastic&logo=google-gemini&logoColor=white" alt="Gemini"> &nbsp;
-<img src="https://img.shields.io/badge/NotebookLM-%235F6368.svg?style=plastic&logo=google&logoColor=white" alt="Google NotebookLM"> &nbsp;
-<img src="https://img.shields.io/badge/Copilot-%230078D4.svg?style=plastic&logo=github&logoColor=white" alt="GitHub Copilot"> &nbsp;
-<img src="https://img.shields.io/badge/Meta_AI-%230467DF.svg?style=plastic&logo=meta&logoColor=white" alt="Meta AI">
-
-</div>
-
-## Documentation & Notes
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/Notion-%23000000.svg?style=plastic&logo=notion&logoColor=white" alt="Notion"> &nbsp;
-<img src="https://img.shields.io/badge/Obsidian-%23483699.svg?style=plastic&logo=obsidian&logoColor=white" alt="Obsidian">
-
-</div>
-
-## Connect
-
-<div align="center">
-
-<a href="https://linkedin.com/in/shantanu-maratha28">
-  <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" alt="LinkedIn">
-</a> &nbsp;
-
-<a href="mailto:i.am.shantanu07@gmail.com">
-  <img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white" alt="Email">
-</a> &nbsp;
-
-<a href="https://hackaday.io/shaxntanu">
-  <img src="https://img.shields.io/badge/Hackaday-%231A1A1A.svg?logo=hackaday&logoColor=white" alt="Hackaday">
-</a> &nbsp;
-
-<a href="https://www.instructables.com/member/shaxntanu/">
-  <img src="https://img.shields.io/badge/Instructables-%23FABF15.svg?logo=instructables&logoColor=white" alt="Instructables">
-</a> &nbsp;
-
-<a href="https://shaxntanu.medium.com">
-  <img src="https://img.shields.io/badge/Medium-%23000000.svg?logo=medium&logoColor=white" alt="Medium">
-</a>
-
-</div>
+- **Firmware & IoT:** C, C++, ESP32, Arduino, Wi-Fi, BLE, MQTT
+- **Hardware:** sensor integration, PCB design with KiCad, prototyping
+- **Data & analysis:** Python, OpenCV, PCA, K-Means, MATLAB
+- **Digital design:** Verilog
 
 ## Contributions
 
@@ -129,10 +39,10 @@ ECE, CS-Minor Sophomore @ TIET building embedded systems and IoT projects. I wor
   />
   <img
     src="./profile-3d-contrib/profile-season-animate.svg"
-    alt="GitHub 3D contribution graph; dark mode colors bars by programming language"
+    alt="3D contribution graph; dark-mode bars are colored by programming language"
   />
 </picture>
 
-<p><sub>In dark mode, each day's bar uses the language of the repo receiving the most commits that day. Days without commits stay neutral; bar height shows total contributions.</sub></p>
+<p><sub>In dark mode, each day's bar uses the primary language of the repo receiving the most commits that day. Bar height shows total contributions.</sub></p>
 
 </div>
