@@ -125,7 +125,7 @@ ECE, CS-Minor Sophomore @ TIET building embedded systems and IoT projects. I wor
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/shaxntanu/shaxntanu/main/profile-3d-contrib/profile-night-view.svg"
+    srcset="https://raw.githubusercontent.com/shaxntanu/shaxntanu/main/profile-3d-contrib/profile-night-green.svg"
   />
   <img
     src="./profile-3d-contrib/profile-season-animate.svg"
