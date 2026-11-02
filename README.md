@@ -106,7 +106,9 @@
 <p align="center">
   <a href="https://github.com/adafruit/circuitpython/pull/11625">Initial PR #11625 (closed)</a> ·
   <a href="https://github.com/adafruit/circuitpython/pull/11646">Follow-up PR #11646 (merged)</a>
-</p><h2 align="center">Git Koi</h2>
+</p>
+
+<h2 align="center">Git Koi</h2>
 
 <p align="center">
   <img src="./koi/koi.gif" width="256" alt="Pixel-art koi reflecting my public GitHub activity" />
