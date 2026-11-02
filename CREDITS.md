@@ -4,6 +4,10 @@ This profile README uses the following open-source projects and services.
 
 ## Contribution visuals
 
+[![Readme Typing SVG](https://img.shields.io/badge/Readme%20Typing%20SVG-Project-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/DenverCoder1/readme-typing-svg)
+
+The blue animated greeting uses Readme Typing SVG.
+
 [![GitHub Profile 3D Contributions](https://img.shields.io/badge/Profile%203D%20Contrib-Project-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/yoshi389111/github-profile-3d-contrib)
 
 The 3D contribution graph is generated with GitHub Profile 3D Contributions. A script in this repository colors each day's bars using the primary language of the repository with the most commits that day.

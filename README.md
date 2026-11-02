@@ -1,4 +1,8 @@
-# Shantanu
+<h1 align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1200&color=7AA2F7&center=true&vCenter=true&width=520&lines=Hi%2C+I'm+Shantanu;IoT+%26+Embedded+Systems+Developer;Building+Connected+Devices" alt="Hi, I'm Shantanu — IoT and Embedded Systems Developer" />
+  </a>
+</h1>
 
 **ECE + CS-minor student at TIET · Embedded Systems & IoT**
 
