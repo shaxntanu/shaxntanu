@@ -99,7 +99,14 @@
 
 <p align="center"><sub>In dark mode, each day's bar uses the primary language of the repo receiving the most commits that day. Bar height shows total contributions.</sub></p>
 
-<h2 align="center">Git Koi</h2>
+<h3 align="center">CircuitPython: Pico W Wi-Fi diagnostics</h3>
+
+<p align="center">Submitted an initial implementation of <code>wifi.radio.ap_info</code> for CircuitPython's Raspberry Pi port, exposing connected-network details. My approach was credited in @mikeysklar's follow-up PR, which added related Wi-Fi fixes and was merged into Adafruit's official CircuitPython repository.</p>
+
+<p align="center">
+  <a href="https://github.com/adafruit/circuitpython/pull/11625">Initial PR #11625 (closed)</a> ·
+  <a href="https://github.com/adafruit/circuitpython/pull/11646">Follow-up PR #11646 (merged)</a>
+</p><h2 align="center">Git Koi</h2>
 
 <p align="center">
   <img src="./koi/koi.gif" width="256" alt="Pixel-art koi reflecting my public GitHub activity" />
