@@ -7,7 +7,7 @@ on:
       - ".github/workflows/profile-3d.yml"
       - ".github/scripts/color_3d_contrib_by_language.py"
   schedule:
-    - cron: "0 18 * * *"
+    - cron: "30 0,6,12,18 * * *" # 00:00, 06:00, 12:00, 18:00 IST
   workflow_dispatch:
 
 permissions:
