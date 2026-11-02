@@ -69,17 +69,9 @@
     <tr><td align="center"><strong>Hardware</strong></td><td align="center">Sensor integration, PCB design with KiCad, prototyping</td></tr>
     <tr><td align="center"><strong>Data and analysis</strong></td><td align="center">Python, OpenCV, PCA, K-Means, MATLAB</td></tr>
     <tr><td align="center"><strong>Digital design</strong></td><td align="center">Verilog</td></tr>
-    <tr><td align="center"><strong>Rust</strong></td><td align="center">README asset checker, Stack Orbit SVG generator</td></tr>
+    <tr><td align="center"><strong>Rust</strong></td><td align="center">README asset checker</td></tr>
   </tbody>
 </table>
-
-<h2 align="center">Stack Orbit</h2>
-
-<p align="center">
-  <img src="./profile/stack-orbit.svg" alt="Animated map of five randomly selected public repositories from shaxntanu and VIGIL-IoT, connected to shared programming-language nodes" />
-</p>
-
-<p align="center"><sub>Refreshes daily. Repositories using the same language connect to one shared node.</sub></p>
 
 <h2 align="center">Contributions</h2>
 
@@ -100,7 +92,7 @@
 
 <h3 align="center">Open-source Wi-Fi API contribution</h3>
 
-<p align="center">Proposed <code>wifi.radio.ap_info</code> for the Raspberry Pi port of <a href="https://www.adafruit.com"><img src="https://img.shields.io/badge/Adafruit-Website-FF5A00?style=flat-square" alt="Adafruit" /></a>'s <a href="https://circuitpython.org/"><img src="https://img.shields.io/badge/CircuitPython-Project-0B8F87?style=flat-square" alt="CircuitPython" /></a> project, returning the connected network's SSID, BSSID, RSSI, channel, and authentication mode, or <code>None</code> when disconnected. My <a href="https://github.com/adafruit/circuitpython/pull/11625">PR #11625</a> closed without merging, but <a href="https://github.com/mikeysklar"><img src="https://img.shields.io/badge/mikeysklar-GitHub-181717?style=flat-square&amp;logo=github&amp;logoColor=white" alt="mikeysklar on GitHub" /></a> cited the same approach in <a href="https://github.com/adafruit/circuitpython/pull/11646">PR #11646</a>, which added the API for Pico W and Pico 2 W and fixed stale IP and <code>wifi.Network.country</code> values. <a href="https://github.com/dhalbert"><img src="https://img.shields.io/badge/dhalbert-GitHub-181717?style=flat-square&amp;logo=github&amp;logoColor=white" alt="dhalbert on GitHub" /></a> reviewed and merged that follow-up.</p>
+<p align="center">Proposed <code>wifi.radio.ap_info</code> for the Raspberry Pi port of <a href="https://www.adafruit.com"><img src="https://img.shields.io/badge/Adafruit-Website-FF5A00?style=flat-square" alt="Adafruit" /></a>'s <a href="https://circuitpython.org/"><img src="https://img.shields.io/badge/CircuitPython-Project-0B8F87?style=flat-square" alt="CircuitPython" /></a> project, returning the connected network's SSID, BSSID, RSSI, channel, and authentication mode, or <code>None</code> when disconnected. My <a href="https://github.com/adafruit/circuitpython/pull/11625"><img src="https://img.shields.io/badge/PR%20%2311625-closed-6E7781?style=flat-square&amp;logo=github&amp;logoColor=white" alt="Pull request 11625, closed" /></a> closed without merging, but <a href="https://github.com/mikeysklar"><img src="https://img.shields.io/badge/mikeysklar-GitHub-181717?style=flat-square&amp;logo=github&amp;logoColor=white" alt="mikeysklar on GitHub" /></a> cited the same approach in <a href="https://github.com/adafruit/circuitpython/pull/11646"><img src="https://img.shields.io/badge/PR%20%2311646-merged-2DA44E?style=flat-square&amp;logo=github&amp;logoColor=white" alt="Pull request 11646, merged" /></a>, which added the API for Pico W and Pico 2 W and fixed stale IP and <code>wifi.Network.country</code> values. <a href="https://github.com/dhalbert"><img src="https://img.shields.io/badge/dhalbert-GitHub-181717?style=flat-square&amp;logo=github&amp;logoColor=white" alt="dhalbert on GitHub" /></a> reviewed and merged that follow-up.</p>
 
 <h2 align="center">Git Koi</h2>
 
