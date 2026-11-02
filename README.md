@@ -45,7 +45,15 @@ An Arceus Labs team project: an ESP32 GPS compass that points toward the nearest
 - **Hardware:** sensor integration, PCB design with KiCad, prototyping
 - **Data & analysis:** Python, OpenCV, PCA, K-Means, MATLAB
 - **Digital design:** Verilog
-- **Rust:** a small standard-library CLI that checks local image references in this README
+- **Rust:** a README asset checker and the Stack Orbit SVG generator
+
+## Stack Orbit
+
+<div align="center">
+  <img src="./profile/stack-orbit.svg" alt="Animated map of five randomly selected public repositories from shaxntanu and VIGIL-IoT, connected to shared programming-language nodes" />
+</div>
+
+<p align="center"><sub>Refreshes daily. When multiple selected repositories use the same language, they connect to one shared node.</sub></p>
 
 ## Contributions
 
