@@ -317,23 +317,25 @@ fn render_svg(
     languages: &[LanguageNode],
     github_icon: Option<&str>,
 ) -> String {
-    const REPO_RADIUS: f64 = 220.0;
-    const REPO_WIDTH: f64 = 190.0;
-    const REPO_HEIGHT: f64 = 78.0;
-    const LANGUAGE_WIDTH: f64 = 152.0;
-    const LANGUAGE_HEIGHT: f64 = 72.0;
+    const REPO_RADIUS: f64 = 228.0;
+    const REPO_WIDTH: f64 = 184.0;
+    const REPO_HEIGHT: f64 = 74.0;
+    const LANGUAGE_WIDTH: f64 = 148.0;
+    const LANGUAGE_HEIGHT: f64 = 62.0;
+    const HUB_RADIUS: f64 = 74.0;
+    const HUB_TRACK_RADIUS: f64 = 96.0;
 
     let language_radius = if languages.is_empty() {
         420.0
     } else {
-        420.0_f64.max((LANGUAGE_WIDTH + 28.0) * languages.len() as f64 / std::f64::consts::TAU)
+        420.0_f64.max((LANGUAGE_WIDTH + 34.0) * languages.len() as f64 / std::f64::consts::TAU)
     };
-    let extent = language_radius + 125.0;
+    let extent = language_radius + LANGUAGE_WIDTH / 2.0 + 58.0;
     let width = 1400.0_f64.max(extent * 2.0).ceil();
-    let height = 1040.0_f64.max(extent * 2.0).ceil();
+    let height = 1080.0_f64.max(extent * 2.0).ceil();
     let center = Point {
         x: width / 2.0,
-        y: height / 2.0 + 18.0,
+        y: height / 2.0 + 12.0,
     };
 
     let repository_points: Vec<Point> = (0..repositories.len())
@@ -362,56 +364,53 @@ fn render_svg(
     let _ = write!(
         svg,
         r##"<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width:.0} {height:.0}" role="img" aria-labelledby="title desc">
-<title id="title">Stack Orbit: randomly sampled GitHub repositories and their languages</title>
-<desc id="desc">GitHub connects to {} public repositories from shaxntanu and VIGIL-IoT. Repository connections merge at shared language nodes.</desc>
+<title id="title">Stack Orbit</title>
+<desc id="desc">A daily map of {} public repositories from shaxntanu and VIGIL-IoT, joined to {} language nodes. Each language node connects to every selected repository that uses it.</desc>
 <defs>
-  <radialGradient id="background"><stop offset="0" stop-color="#101c33"/><stop offset="1" stop-color="#070b14"/></radialGradient>
-  <linearGradient id="hub"><stop stop-color="#182c50"/><stop offset="1" stop-color="#0b1220"/></linearGradient>
-  <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   <style>
-    .flow {{ stroke-dasharray: 8 12; animation: dash 2.8s linear infinite; }}
-    @keyframes dash {{ to {{ stroke-dashoffset: -40; }} }}
-    text {{ font-family: Arial, Helvetica, sans-serif; }}
+    text {{ font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }}
+    @media (prefers-reduced-motion: reduce) {{ .orbiting-dot {{ display: none; }} }}
   </style>
 </defs>
-<rect width="100%" height="100%" rx="30" fill="url(#background)"/>
-<text x="{:.1}" y="48" text-anchor="middle" fill="#f0f6fc" font-size="24" font-weight="700" letter-spacing="2">RANDOM {} PUBLIC REPOS  →  SHARED LANGUAGES</text>
-<text x="{:.1}" y="75" text-anchor="middle" fill="#8b9bb4" font-size="13">daily sample · at least one from each source when available</text>
+<rect width="100%" height="100%" fill="#0d1117"/>
+<text x="{:.1}" y="44" text-anchor="middle" fill="#e6edf3" font-size="23" font-weight="650">Stack Orbit</text>
+<text x="{:.1}" y="68" text-anchor="middle" fill="#8b949e" font-size="12">{} repositories · {} languages · daily sample</text>
+<circle cx="{:.1}" cy="{:.1}" r="{REPO_RADIUS:.1}" fill="none" stroke="#27313d" stroke-width="1"/>
+<circle cx="{:.1}" cy="{:.1}" r="{language_radius:.1}" fill="none" stroke="#27313d" stroke-width="1"/>
+<circle cx="{:.1}" cy="{:.1}" r="{HUB_TRACK_RADIUS:.1}" fill="none" stroke="#344251" stroke-width="1" stroke-dasharray="1 7"/>
 "##,
         repositories.len(),
+        languages.len(),
+        center.x,
         center.x,
         repositories.len(),
-        center.x
+        languages.len(),
+        center.x,
+        center.y,
+        center.x,
+        center.y,
+        center.x,
+        center.y
     );
 
-    for star in 0..62usize {
-        let x = (star.wrapping_mul(193).wrapping_add(47)) as f64 % width;
-        let y = (star.wrapping_mul(127).wrapping_add(113)) as f64 % height;
-        let opacity = 0.12 + (star % 5) as f64 * 0.07;
-        let _ = write!(
-            svg,
-            r##"<circle cx="{x:.1}" cy="{y:.1}" r="1.3" fill="#9dbdff" opacity="{opacity:.2}"/>"##
-        );
-    }
-
     for (index, point) in repository_points.iter().enumerate() {
-        let path = quadratic_path(center, *point, (index as f64 - 2.0) * 14.0);
-        animated_path(&mut svg, &path, "#7AA2F7", 2.2, 3.0 + index as f64 * 0.25, index as f64 * 0.4);
+        let offset = index as f64 - (repositories.len().saturating_sub(1) as f64 / 2.0);
+        let path = quadratic_path(center, *point, offset * 7.0);
+        connection_path(&mut svg, &path, "#526171", 1.25, 0.74);
     }
 
     for (language_index, language) in languages.iter().enumerate() {
         let target = language_points[language_index];
         for (connection_index, repository_index) in language.repositories.iter().enumerate() {
             let source = repository_points[*repository_index];
-            let bend = (language_index as f64 - connection_index as f64) * 12.0;
+            let bend = (language_index as f64 - connection_index as f64) * 8.0;
             let path = quadratic_path(source, target, bend);
-            animated_path(
+            connection_path(
                 &mut svg,
                 &path,
                 &language.color,
-                1.8,
-                3.8 + (language_index % 5) as f64 * 0.35,
-                connection_index as f64 * 0.45,
+                1.05,
+                0.42,
             );
         }
     }
@@ -420,26 +419,27 @@ fn render_svg(
         let x = point.x - REPO_WIDTH / 2.0;
         let y = point.y - REPO_HEIGHT / 2.0;
         let border = if repository.repository.source.eq_ignore_ascii_case("VIGIL-IoT") {
-            "#9B8AFB"
+            "#56B6C2"
         } else {
-            "#62A7FF"
+            "#7AA2F7"
         };
-        let repo_name = truncate(&repository.repository.name, 21);
-        let source = xml_escape(&format!("@{}", repository.repository.source));
+        let repo_name = truncate(&repository.repository.name, 18);
+        let source = xml_escape(&repository.repository.source);
         let url = xml_escape(&repository.repository.url);
         let _ = write!(
             svg,
             r##"<a href="{url}"><g class="repo-node">
-  <rect x="{x:.1}" y="{y:.1}" width="{REPO_WIDTH:.1}" height="{REPO_HEIGHT:.1}" rx="16" fill="#101a2a" stroke="{border}" stroke-width="2" filter="url(#glow)"/>
-  <text x="{:.1}" y="{:.1}" text-anchor="middle" fill="#f4f7fb" font-size="15" font-weight="700">{}</text>
-  <text x="{:.1}" y="{:.1}" text-anchor="middle" fill="{border}" font-size="11">{}</text>
+  <rect x="{x:.1}" y="{y:.1}" width="{REPO_WIDTH:.1}" height="{REPO_HEIGHT:.1}" rx="7" fill="#111820" stroke="#303b48" stroke-width="1"/>
+  <rect x="{x:.1}" y="{y:.1}" width="3" height="{REPO_HEIGHT:.1}" rx="1.5" fill="{border}"/>
+  <text x="{:.1}" y="{:.1}" fill="#e6edf3" font-size="14" font-weight="600">{}</text>
+  <text x="{:.1}" y="{:.1}" fill="{border}" font-size="10">{}</text>
   <title>{}</title>
 </g></a>"##,
-            point.x,
+            point.x - REPO_WIDTH / 2.0 + 14.0,
             point.y - 4.0,
             xml_escape(&repo_name),
-            point.x,
-            point.y + 20.0,
+            point.x - REPO_WIDTH / 2.0 + 14.0,
+            point.y + 18.0,
             source,
             xml_escape(&repository.repository.full_name)
         );
@@ -451,16 +451,17 @@ fn render_svg(
         let _ = write!(
             svg,
             r##"<g class="language-node">
-  <rect x="{x:.1}" y="{y:.1}" width="{LANGUAGE_WIDTH:.1}" height="{LANGUAGE_HEIGHT:.1}" rx="18" fill="#111a27" stroke="{}" stroke-width="2"/>
+  <rect x="{x:.1}" y="{y:.1}" width="{LANGUAGE_WIDTH:.1}" height="{LANGUAGE_HEIGHT:.1}" rx="7" fill="#111820" stroke="#303b48" stroke-width="1"/>
+  <rect x="{x:.1}" y="{y:.1}" width="3" height="{LANGUAGE_HEIGHT:.1}" rx="1.5" fill="{}"/>
 "##,
             language.color
         );
         if let Some(icon) = &language.icon {
-            let icon_x = x + 12.0;
-            let icon_y = y + 23.0;
+            let icon_x = x + 13.0;
+            let icon_y = y + 21.0;
             let _ = write!(
                 svg,
-                r##"<svg x="{icon_x:.1}" y="{icon_y:.1}" width="26" height="26" viewBox="0 0 24 24" aria-hidden="true"><path d="{}" fill="{}"/></svg>"##,
+                r##"<svg x="{icon_x:.1}" y="{icon_y:.1}" width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path d="{}" fill="{}"/></svg>"##,
                 icon,
                 language.color
             );
@@ -468,31 +469,37 @@ fn render_svg(
             let letters = xml_escape(&initials(&language.name));
             let _ = write!(
                 svg,
-                r##"<text x="{:.1}" y="{:.1}" text-anchor="middle" fill="{}" font-size="14" font-weight="700">{letters}</text>"##,
-                x + 25.0,
-                y + 43.0,
+                r##"<circle cx="{:.1}" cy="{:.1}" r="10" fill="{}" opacity=".18"/><text x="{:.1}" y="{:.1}" text-anchor="middle" fill="{}" font-size="10" font-weight="700">{letters}</text>"##,
+                x + 23.0,
+                y + 31.0,
+                language.color,
+                x + 23.0,
+                y + 35.0,
                 language.color
             );
         }
         let _ = write!(
             svg,
-            r##"<text x="{:.1}" y="{:.1}" fill="#f0f6fc" font-size="13" font-weight="700">{}</text>
-  <text x="{:.1}" y="{:.1}" fill="#8b9bb4" font-size="10">{} repo{}</text>
+            r##"<text x="{:.1}" y="{:.1}" fill="#e6edf3" font-size="12" font-weight="600">{}</text>
+  <text x="{:.1}" y="{:.1}" fill="#8b949e" font-size="10">{} repo{}</text>
+  <title>{} appears in {} selected repositories</title>
 </g>"##,
-            x + 46.0,
-            y + 33.0,
-            xml_escape(&truncate(&language.name, 13)),
-            x + 46.0,
-            y + 51.0,
+            x + 42.0,
+            y + 27.0,
+            xml_escape(&truncate(&language.name, 14)),
+            x + 42.0,
+            y + 45.0,
             language.repositories.len(),
-            if language.repositories.len() == 1 { "" } else { "s" }
+            if language.repositories.len() == 1 { "" } else { "s" },
+            xml_escape(&language.name),
+            language.repositories.len()
         );
     }
 
     let _ = write!(
         svg,
         r##"<g class="github-hub">
-  <circle cx="{:.1}" cy="{:.1}" r="88" fill="url(#hub)" stroke="#5c9dff" stroke-width="3" filter="url(#glow)"/>
+  <circle cx="{:.1}" cy="{:.1}" r="{HUB_RADIUS:.1}" fill="#111820" stroke="#7aa2f7" stroke-width="1.5"/>
 "##,
         center.x,
         center.y
@@ -507,17 +514,25 @@ fn render_svg(
     }
     let _ = write!(
         svg,
-        r##"<text x="{:.1}" y="{:.1}" text-anchor="middle" fill="#ffffff" font-size="19" font-weight="700" letter-spacing="1">GITHUB</text>
-  <text x="{:.1}" y="{:.1}" text-anchor="middle" fill="#9dbdff" font-size="11">{} repos · {} languages</text>
+        r##"<text x="{:.1}" y="{:.1}" text-anchor="middle" fill="#ffffff" font-size="18" font-weight="650">GitHub</text>
+  <text x="{:.1}" y="{:.1}" text-anchor="middle" fill="#8b949e" font-size="10">{} repositories</text>
 </g>
-<text x="{:.1}" y="{:.1}" text-anchor="middle" fill="#70809a" font-size="11">shared language nodes merge connections from every selected repo</text>
+<circle class="orbiting-dot" cx="{:.1}" cy="{:.1}" r="2.5" fill="#7aa2f7">
+  <animateTransform attributeName="transform" type="rotate" from="0 {:.1} {:.1}" to="360 {:.1} {:.1}" dur="24s" repeatCount="indefinite"/>
+</circle>
+<text x="{:.1}" y="{:.1}" text-anchor="middle" fill="#8b949e" font-size="11">One node per language, shared by every selected repository that uses it.</text>
 </svg>"##,
         center.x,
         center.y + 19.0,
         center.x,
         center.y + 43.0,
         repositories.len(),
-        languages.len(),
+        center.x + HUB_TRACK_RADIUS,
+        center.y,
+        center.x,
+        center.y,
+        center.x,
+        center.y,
         center.x,
         height - 24.0
     );
@@ -525,12 +540,10 @@ fn render_svg(
     svg
 }
 
-fn animated_path(svg: &mut String, path: &str, color: &str, width: f64, duration: f64, delay: f64) {
+fn connection_path(svg: &mut String, path: &str, color: &str, width: f64, opacity: f64) {
     let _ = write!(
         svg,
-        r##"<path d="{path}" fill="none" stroke="{color}" stroke-width="{width:.1}" opacity=".72" class="flow"><animate attributeName="stroke-dashoffset" from="0" to="-40" dur="{duration:.2}s" repeatCount="indefinite"/></path>
-<circle r="3.2" fill="{color}" filter="url(#glow)"><animateMotion dur="{duration:.2}s" begin="{delay:.2}s" repeatCount="indefinite" path="{path}"/></circle>
-"##
+        r##"<path d="{path}" fill="none" stroke="{color}" stroke-width="{width:.2}" opacity="{opacity:.2}" stroke-linecap="round"/>"##
     );
 }
 
