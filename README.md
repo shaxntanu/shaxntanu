@@ -4,7 +4,11 @@
   </a>
 </h1>
 
-<p align="center"><strong>ECE + CS-minor student at TIET · Embedded Systems &amp; IoT</strong></p>
+<p align="center">
+  <strong>ECE + CS-minor student at</strong><br />
+  <a href="https://www.thapar.edu"><img src="https://img.shields.io/badge/Thapar%20Institute%20of%20Engineering%20%26%20Technology-TIET-004B87?style=flat-square" alt="Thapar Institute of Engineering and Technology (TIET)" /></a><br />
+  <strong>Embedded Systems &amp; IoT</strong>
+</p>
 
 <p align="center">I build embedded and IoT systems, from ESP32 firmware and sensor integration to PCB design, wireless networking, and dashboards. I am a founder at:</p>
 
