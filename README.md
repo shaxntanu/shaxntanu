@@ -97,8 +97,8 @@
 
 <h2 align="center">Git Koi</h2>
 
-<p align="center"><sub>A Rust project that turns my public GitHub activity into an animated pixel-art koi.</sub></p>
-
 <p align="center">
   <img src="./koi/koi.gif" width="256" alt="Pixel-art koi reflecting my public GitHub activity" />
 </p>
+
+<p align="center"><sub>A Rust project that turns my public GitHub activity into an animated pixel-art koi.</sub></p>
