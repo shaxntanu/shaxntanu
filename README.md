@@ -98,14 +98,9 @@
 
 <p align="center"><sub>In dark mode, each day's bar uses the primary language of the repo receiving the most commits that day. Bar height shows total contributions.</sub></p>
 
-<h3 align="center">CircuitPython: Pico W Wi-Fi diagnostics</h3>
+<h3 align="center">CircuitPython Wi-Fi API contribution</h3>
 
-<p align="center">Submitted an initial implementation of <code>wifi.radio.ap_info</code> for CircuitPython's Raspberry Pi port, exposing connected-network details. My approach was credited in @mikeysklar's follow-up PR, which added related Wi-Fi fixes and was merged into Adafruit's official CircuitPython repository.</p>
-
-<p align="center">
-  <a href="https://github.com/adafruit/circuitpython/pull/11625">Initial PR #11625 (closed)</a> ·
-  <a href="https://github.com/adafruit/circuitpython/pull/11646">Follow-up PR #11646 (merged)</a>
-</p>
+<p align="center">Proposed <code>wifi.radio.ap_info</code> for CircuitPython's Raspberry Pi port, returning the connected network's SSID, BSSID, RSSI, channel, and authentication mode, or <code>None</code> when disconnected. My <a href="https://github.com/adafruit/circuitpython/pull/11625">PR #11625</a> closed without merging, but <a href="https://github.com/mikeysklar"><img src="https://img.shields.io/badge/mikeysklar-GitHub-181717?style=flat-square&amp;logo=github&amp;logoColor=white" alt="mikeysklar on GitHub" /></a> cited the same approach in <a href="https://github.com/adafruit/circuitpython/pull/11646">PR #11646</a>, which added the API for Pico W and Pico 2 W and fixed stale IP and <code>wifi.Network.country</code> values. <a href="https://github.com/dhalbert"><img src="https://img.shields.io/badge/dhalbert-GitHub-181717?style=flat-square&amp;logo=github&amp;logoColor=white" alt="dhalbert on GitHub" /></a> reviewed and merged that follow-up.</p>
 
 <h2 align="center">Git Koi</h2>
 
