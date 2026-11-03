@@ -32,7 +32,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           .git-koi/target/release/git-koi collect "$GITHUB_REPOSITORY_OWNER" --output "$RUNNER_TEMP/koi-snapshot.json"
-          .git-koi/target/release/git-koi render "$RUNNER_TEMP/koi-snapshot.json" --output-dir koi --body gold --utc-offset +05:30
+          .git-koi/target/release/git-koi render "$RUNNER_TEMP/koi-snapshot.json" --output-dir koi --body gold --utc-offset +05:30 --random-lap
       - name: Commit the koi if it changed
         shell: bash
         run: |
