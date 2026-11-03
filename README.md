@@ -73,6 +73,13 @@
   </tbody>
 </table>
 
+<h2 align="center">Operating Systems</h2>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Windows-0078D4?style=flat-square&logo=windows&logoColor=white" alt="Windows" />
+  <img src="https://img.shields.io/badge/Garuda%20Linux-1793D1?style=flat-square&logo=garudalinux&logoColor=white" alt="Garuda Linux" />
+</p>
+
 <h2 align="center">Contributions</h2>
 
 <p align="center">
