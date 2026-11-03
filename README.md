@@ -100,12 +100,4 @@
   <img src="./koi/koi.gif" width="256" alt="Pixel-art koi reflecting my public GitHub activity" />
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Swim-activity--paced-2563EB?style=flat-square" alt="Activity-paced swim" />
-  <img src="https://img.shields.io/badge/Trail-5%20repositories-7C3AED?style=flat-square" alt="Five-repository trail" />
-  <img src="https://img.shields.io/badge/Colour-primary%20language-0891B2?style=flat-square" alt="Primary-language colours" />
-  <img src="https://img.shields.io/badge/Ripples-issues%20%7C%20PRs%20%7C%20reviews-DB2777?style=flat-square" alt="Issue, pull request, and review ripples" />
-  <img src="https://img.shields.io/badge/Pond-day%20%7C%20dusk%20%7C%20night-475569?style=flat-square" alt="Day, dusk, and night lighting" />
-</p>
-
 <p align="center"><a href="CREDITS.md"><img src="https://img.shields.io/badge/Credits-Attributions-6B7280?style=flat-square" alt="Credits" /></a></p>
