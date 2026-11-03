@@ -19,10 +19,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - uses: yalongwastaken/git-koi@v1
+      - uses: actions/checkout@v7
         with:
-          body: gold
-          output-dir: koi
+          repository: shaxntanu/git-koi
+          ref: codex/pond-lighting
+          path: .git-koi
+      - uses: dtolnay/rust-toolchain@stable
+      - name: Build Git Koi from the fork
+        run: cargo build --release --locked --manifest-path .git-koi/Cargo.toml
+      - name: Collect and render the koi
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          .git-koi/target/release/git-koi collect "$GITHUB_REPOSITORY_OWNER" --output "$RUNNER_TEMP/koi-snapshot.json"
+          .git-koi/target/release/git-koi render "$RUNNER_TEMP/koi-snapshot.json" --output-dir koi --body gold --utc-offset +05:30
       - name: Commit the koi if it changed
         shell: bash
         run: |

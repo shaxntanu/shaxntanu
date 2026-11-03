@@ -100,6 +100,6 @@
   <img src="./koi/koi.gif" width="256" alt="Pixel-art koi reflecting my public GitHub activity" />
 </p>
 
-<p align="center"><sub>A Rust project that turns my public GitHub activity into an animated pixel-art koi.</sub></p>
+<p align="center"><sub>Recent activity sets its pace. Five pushed repos trail in their primary-language colours; issues, PRs, and reviews ripple through the pond. Event time sets day, dusk, or night lighting.</sub></p>
 
 <p align="center"><a href="CREDITS.md"><img src="https://img.shields.io/badge/Credits-Attributions-6B7280?style=flat-square" alt="Credits" /></a></p>
