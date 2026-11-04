@@ -1,0 +1,20 @@
+[package]
+name = "git-koi"
+version = "1.0.2"
+edition = "2024"
+rust-version = "1.88"
+description = "Draw a pixel-art koi from a GitHub account's public activity, as a looping GIF for a profile README."
+repository = "https://github.com/yalongwastaken/git-koi"
+documentation = "https://docs.rs/git-koi"
+readme = "README.md"
+license = "MIT"
+keywords = ["github", "profile", "koi", "pixel-art", "gif"]
+categories = ["command-line-utilities", "visualization"]
+exclude = ["/.github", "/docs"]
+
+[dependencies]
+chrono = { version = "0.4", default-features = false, features = ["std", "serde"] }
+gif = { version = "0.14", default-features = false, features = ["std"] }
+png = "0.18"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
