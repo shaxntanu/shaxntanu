@@ -13,7 +13,7 @@
 <p align="center">I build embedded and IoT systems, from ESP32 firmware and sensor integration to PCB design, wireless networking, and dashboards. I am a founder at:</p>
 
 <p align="center">
-  <a href="https://github.com/Arceus-Labs"><img src="https://img.shields.io/badge/Arceus%20Labs-GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="Arceus Labs GitHub" /></a>
+  <a href="https://github.com/ElevenOctober"><img src="https://img.shields.io/badge/Eleven%20October-GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="Eleven October GitHub" /></a>
   <a href="https://github.com/VIGIL-IoT"><img src="https://img.shields.io/badge/VIGIL%20IoT-GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="VIGIL IoT GitHub" /></a>
   <br />
   <a href="https://shantanu-vsc-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portfolio-Visit-000000?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio" /></a>
@@ -50,7 +50,7 @@
     <tr>
       <td align="center"><strong>Jolt Locator</strong></td>
       <td align="center">An ESP32 GPS compass that points to the nearest energy-drink store, with true-north heading and an OLED display.</td>
-      <td align="center"><a href="https://github.com/Arceus-Labs/Jolt-Locator"><img src="https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github&logoColor=white" alt="Jolt Locator repository" /></a></td>
+      <td align="center"><a href="https://github.com/ElevenOctober/Jolt-Locator"><img src="https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github&logoColor=white" alt="Jolt Locator repository" /></a></td>
     </tr>
   </tbody>
 </table>
