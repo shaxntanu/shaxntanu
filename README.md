@@ -34,23 +34,23 @@
   </thead>
   <tbody>
     <tr>
+      <td align="center"><strong>VIGIL-FUSE</strong></td>
+      <td align="center">Python CLI for firmware and IoT security triage, with seven native checks for credential-like strings, TLS bypasses, and plaintext HTTP/MQTT. Optional Syft/OSV-Scanner, Binwalk, and Ghidra integrations extend dependency and firmware analysis; findings include evidence in JSON/SARIF.</td>
+      <td align="center"><a href="https://github.com/VIGIL-IoT/VIGIL-FUSE"><img src="https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github&logoColor=white" alt="VIGIL-FUSE repository" /></a></td>
+    </tr>
+    <tr>
       <td align="center"><strong>Zephyr Station</strong></td>
-      <td align="center">ESP32 environmental monitor with seven sensors, OLED readings, SD logging, RTC timestamps, alerts, and a web dashboard.</td>
+      <td align="center">Seven-module ESP32 room monitor for temperature, humidity, pressure, and air quality, with OLED readings, RTC-stamped CSV logs on SD, threshold alerts, and a live dashboard.</td>
       <td align="center"><a href="https://github.com/shaxntanu/Zephyr-Station"><img src="https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github&logoColor=white" alt="Zephyr Station repository" /></a></td>
     </tr>
     <tr>
       <td align="center"><strong>Energy Consumption Analysis</strong></td>
-      <td align="center">A PCA and K-Means pipeline for exploring daily electricity-use patterns.</td>
+      <td align="center">Analyzes 200 synthetic consumer profiles across 365 days using 51 behavioral features; PCA retains 95.05% of variance in 10 components, and K-Means recovers four archetypes (ARI 0.813, NMI 0.828). Streamlit and React explorers present the results.</td>
       <td align="center">
         <a href="https://github.com/shaxntanu/Energy-Consumption-Pattern-Analysis-using-PCA-and-K-Means"><img src="https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github&logoColor=white" alt="Energy Analysis repository" /></a>
         <a href="https://energy-consumption-pattern.vercel.app"><img src="https://img.shields.io/badge/Web%20Explorer-Open-2563EB?style=flat-square&logo=vercel&logoColor=white" alt="Web explorer" /></a>
         <a href="https://energy-consumption-pattern-vqrh.streamlit.app"><img src="https://img.shields.io/badge/Streamlit-Simulator-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit simulator" /></a>
       </td>
-    </tr>
-    <tr>
-      <td align="center"><strong>Jolt Locator</strong></td>
-      <td align="center">An ESP32 GPS compass that points to the nearest energy-drink store, with true-north heading and an OLED display.</td>
-      <td align="center"><a href="https://github.com/ElevenOctober/Jolt-Locator"><img src="https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github&logoColor=white" alt="Jolt Locator repository" /></a></td>
     </tr>
   </tbody>
 </table>
