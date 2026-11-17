@@ -34,11 +34,6 @@
   </thead>
   <tbody>
     <tr>
-      <td align="center"><strong>VIGIL-FUSE</strong></td>
-      <td align="center">Python CLI for firmware and IoT security triage, with seven native checks for credential-like strings, TLS bypasses, and plaintext HTTP/MQTT. Optional Syft/OSV-Scanner, Binwalk, and Ghidra integrations extend dependency and firmware analysis; findings include evidence in JSON/SARIF.</td>
-      <td align="center"><a href="https://github.com/VIGIL-IoT/VIGIL-FUSE"><img src="https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github&logoColor=white" alt="VIGIL-FUSE repository" /></a></td>
-    </tr>
-    <tr>
       <td align="center"><strong>Zephyr Station</strong></td>
       <td align="center">Seven-module ESP32 room monitor for temperature, humidity, pressure, and air quality, with OLED readings, RTC-stamped CSV logs on SD, threshold alerts, and a live dashboard.</td>
       <td align="center"><a href="https://github.com/shaxntanu/Zephyr-Station"><img src="https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github&logoColor=white" alt="Zephyr Station repository" /></a></td>
